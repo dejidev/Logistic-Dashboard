@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+:root[data-theme="light"] {
+  --background: #f9fafb;
+  --text: #111827;
+  /* Add other theme variables */
+}
+
+:root[data-theme="dark"] {
+  --background: #111827;
+  --text: #f9fafb;
+  /* Add other theme variables */
+}
